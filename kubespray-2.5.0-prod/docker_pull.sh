@@ -1,0 +1,12 @@
+docker pull zhangzhonglin/kubernetes-dashboard-amd64:v1.8.3
+docker pull zhangzhonglin/hyperkube:v1.9.5
+docker pull zhangzhonglin/k8s-dns-dnsmasq-nanny-amd64:1.14.8
+docker pull zhangzhonglin/k8s-dns-sidecar-amd64:1.14.8
+docker pull zhangzhonglin/k8s-dns-kube-dns-amd64:1.14.8
+docker pull zhangzhonglin/node:v2.6.2
+docker pull zhangzhonglin/cni:v1.11.0
+docker pull zhangzhonglin/ctl:v1.6.1
+docker pull zhangzhonglin/routereflector:v0.4.0
+docker pull zhangzhonglin/etcd:v3.2.4
+docker pull zhangzhonglin/cluster-proportional-autoscaler-amd64:1.1.2
+docker pull zhangzhonglin/pause-amd64:3.0
