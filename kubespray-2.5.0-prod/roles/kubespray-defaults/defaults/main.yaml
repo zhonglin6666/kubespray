@@ -140,7 +140,7 @@ docker_log_opts: "--log-opt max-size=50m --log-opt max-file=5"
 ## This string should be exactly as you wish it to appear.
 ## An obvious use case is allowing insecure-registry access
 ## to self hosted registries like so:
-docker_options: "--insecure-registry={{ kube_service_addresses }} --graph={{ docker_daemon_graph }} {{ docker_log_opts }}"
+docker_options: "--insecure-registry={{ kube_service_addresses }} --insecure-registry=10.20.1.38 --graph={{ docker_daemon_graph }} {{ docker_log_opts }}"
 
 # Settings for containerized control plane (etcd/kubelet/secrets)
 etcd_deployment_type: docker
